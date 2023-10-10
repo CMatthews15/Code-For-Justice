@@ -8,6 +8,7 @@ body {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 
 /*nav*/
@@ -24,12 +25,14 @@ header > * {
 }
 
 h1 {
-    color: white
+    color: white;
+    position: relative;
+    top:5px;
 }
 
 mark {
     background-color: black;
-    color: purple
+    color: purple;
 }
 
 ul {
